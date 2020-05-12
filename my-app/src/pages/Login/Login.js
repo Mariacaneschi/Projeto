@@ -1,22 +1,26 @@
 import React, {useState} from 'react';
 import './style.css';
-import { InputGroup, FormControl, Button } from 'react-bootstrap';
+import { InputGroup, FormControl, Button, Form} from 'react-bootstrap';
 import {Email, VpnKey } from '@material-ui/icons';
+import {useHistory} from 'react-router-dom';
 
 
 function Login() {
-  const usuario = "Maria";
+  const usuario = "equipe2@cpe.br";
   const senha = "cpe";
 
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  function verificar(){
-    if (username === usuario && senha === password){
+  const history = useHistory();
 
+  function handleChange(){
+
+    if (username === usuario && senha === password){
+      history.push('/case');
     }
     else{
-      alert("E-mail ou senha incorretos.")
+      alert("E-mail ou senha incorretos.");
     }
   }
 
@@ -24,12 +28,13 @@ function Login() {
   return (
     <div className="back h-100">
       <div className="header h-100px">
-        <img src='imagemPokemon.png'/>
+        <img src='imagemPokemon.png' />
       </div>
 
       <div className="login d-flex justify-content-center flex-column p-3">
         <h3>Login</h3>
         <div className="d-flex justify-content-center flex-column">
+          
           <InputGroup className="mb-3">
             <InputGroup.Prepend>
               <InputGroup.Text id="basic-addon1"><Email></Email></InputGroup.Text>
@@ -59,7 +64,7 @@ function Login() {
         <p style={{color: 'royalblue', fontSize: '15px', textAlign: 'center'}}>
           Não tem uma conta? <a href="http://google.com" className="text-decoration-none">Cadastre-se</a>
           </p>
-        <Button onClick = {() => verificar()} className="mt-2 col-3.5 mx-auto">Entrar</Button>
+        <Button onClick = {() => handleChange()} className="mt-2 col-3.5 mx-auto">Entrar</Button>
       </div>
     </div>
   );
