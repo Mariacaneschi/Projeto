@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './styles.css';
+import { InputGroup, FormControl, Button } from 'react-bootstrap';
 const DATA = [
   {
     name: 'Bulbasaur',
@@ -110,7 +111,6 @@ const DATA = [
     name: 'Sandshrew',
     seleted: false
 }];
-
   
 function App() {
 
@@ -137,7 +137,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1> Minha Pokédex </h1>
+      <h1> Selecione os Pokémons: </h1>
       <div className="d-flex flex-wrap justify-content-center align-items-center">
       {data.map((obj, index) => {
           return <Square value={obj.name} _selected={obj.seleted} onClick={() => handleClick(index)} />
