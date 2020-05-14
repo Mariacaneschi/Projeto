@@ -140,7 +140,7 @@ function App() {
     <div className="App">
       <button id = "selecionar" type="button" >Selecionar</button>
       <h1> Selecione os Pokémons: </h1>
-      <div className="d-flex flex-wrap justify-content-center align-items-center">
+      <div className="d-flex flex-wrap justify-content-center">
       {data.map((obj, index) => {
           return <Square value={obj.name} _selected={obj.seleted} onClick={() => handleClick(index)} />
         })}

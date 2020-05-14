@@ -9,8 +9,12 @@ function Pokedex() {
 return(
     <div className = "App">
         
+        <form action="/case" class="inline">
+    <button id= "adicionar" class="submit-button"> Adicionar Pokémons </button>
+</form>
 
-<button id = "adicionar" type="button" >Adicionar Pokémons</button>
+
+
 <h1> Minha Pokedex</h1>
 
 
