@@ -114,6 +114,7 @@ const DATA = [
   
 function App() {
 
+
   const [data, setData] = useState(DATA);
 
   console.log('renderizou');
@@ -170,7 +171,7 @@ function Square(props) {
 
   return (
     <div className='square d-flex justify-content-center align-items-center' style={style}>
-      <button onClick={() => onClick()} >{value}</button>
+      <button id= "botoes" onClick={() => onClick()} >{value}</button>
     </div>
   )
 }

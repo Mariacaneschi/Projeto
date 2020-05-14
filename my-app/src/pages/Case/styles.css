@@ -20,20 +20,27 @@ h1 {
   font-size: 300px;
   margin-left: 500px;
 }
-Button {
+button#botoes {
 
-color: white;
+color: black;
 font-family:"Pokemon";
-background-color: red;
+background-color: white;
 border-color: black;
-border-radius: 70px;
+border-radius: 60px;
 
 }
 
 button#selecionar{
   float: right;
+  font-family: "Pokemon";
   margin-top: 10px;
   margin-right: 310px;
-  
+  width: 120px;
+  background-color:#ff0d0d;
+  border-color:#ff0d0d;
+ 
 }
 
+#um{
+  background-image: url('buba.jpg');
+}
