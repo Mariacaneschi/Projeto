@@ -1,0 +1,96 @@
+body {
+background-image: url('PLANANDO.jpg');
+background-position-y: 120px;
+}
+#divl {
+height: 1500px;
+width: 650px; 
+background-color: rgba(241, 219, 16, 0.877);
+color: white;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+border-style: groove;
+border-color: black;
+border-width: 7px;
+position: absolute;
+top: 200px;
+left: 300px;
+}
+#meowth {
+    clear: both;
+    position: relative;
+    right: 220px;
+    top: 20px;
+}
+#mm {
+    height: 360px;
+    width: 270px;
+    position: absolute;
+}
+#balão {
+clear:both;
+position: relative;
+right: 10px;
+bottom: 20px;
+}
+#balao {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    
+}
+#fala {
+    font-family: 'Comic Sans MS';
+    font-size: 18px;
+    position: relative;
+    right: 85px;
+    color: black;
+    top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+#divrup {
+height: 400px;
+width: 350px;
+background-color: rgba(241, 219, 16, 0.877);
+border-radius: 20px;
+border-style: groove;
+border-color:black;
+border-width: 7px;
+position: absolute;
+right: 300px;
+top: 200px;
+}
+#divrdown{
+height: 1050px;
+width: 600px;
+border-style: groove;
+border-color:black;
+border-width: 7px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+background-color: rgba(241, 219, 16, 0.877);
+position: absolute;
+top: 650px;
+right: 300px;
+
+
+
+
+}
+.central {
+    margin: auto;
+    width: 1300px;
+    
+}
+
+section div:first-child{
+
+}
+section div:last-child{
+
+}
