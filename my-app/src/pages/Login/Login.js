@@ -17,7 +17,7 @@ function Login() {
   function handleChange(){
 
     if (username === usuario && senha === password){
-      history.push('/case');
+      history.push('/pokedex');
     }
     else{
       alert("E-mail ou senha incorretos.");
