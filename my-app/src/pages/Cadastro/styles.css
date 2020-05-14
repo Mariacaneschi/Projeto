@@ -10,5 +10,7 @@
     height: 500px;
     background-color: rgba(241, 219, 16, 0.877);
     border-radius: 20px;
+    border-style: solid;
     border-color: black;
+    margin: auto;
 }
