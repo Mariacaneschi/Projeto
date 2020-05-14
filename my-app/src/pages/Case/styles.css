@@ -16,9 +16,9 @@
     
 h1 {
   color:black;
-  text-align: center;
   font-family:"Pokemon";
   font-size: 300px;
+  margin-left: 500px;
 }
 Button {
 
@@ -27,4 +27,13 @@ font-family:"Pokemon";
 background-color: red;
 border-color: black;
 border-radius: 70px;
+
 }
+
+button#selecionar{
+  float: right;
+  margin-top: 10px;
+  margin-right: 310px;
+  
+}
+

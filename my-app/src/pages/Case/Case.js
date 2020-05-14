@@ -123,7 +123,7 @@ function App() {
   }, [])
 
   function handleClick(index) {
-
+   
     const newData = [...data];
     const item = newData[index];
 
@@ -137,6 +137,7 @@ function App() {
 
   return (
     <div className="App">
+      <button id = "selecionar" type="button" >Selecionar</button>
       <h1> Selecione os Pokémons: </h1>
       <div className="d-flex flex-wrap justify-content-center align-items-center">
       {data.map((obj, index) => {
