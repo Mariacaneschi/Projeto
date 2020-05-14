@@ -1,47 +1,33 @@
 @font-face {font-family: "Pokemon"; src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot"); src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff") format("woff"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.svg#Pokemon") format("svg"); }
 
 
-
-
-.square {
-  height: 200px;
-  width: 200px;
-  background-color: blue;
-}
-     
-.App {
+.back{
+    /*background-color: cornflowerblue;*/
     background-image: url('../../fundo1.jpg');
-    background-size: 100%;    
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+
 }
+
+button#adicionar{
+    float: right;
+    font-family: "Pokemon";
+    margin-top: 10px;
+    margin-right: 310px;
+    width: 120px;
+    background-color:#ff0d0d;
+    border-color:#ff0d0d;
+    border-radius: 60px;
+
+   
+  }
     
-h1 {
-  color:black;
-  font-family:"Pokemon";
-  font-size: 300px;
-  margin-left: 600px;
-}
 
-button#botoes {
 
-color: black;
-font-family:"Pokemon";
-background-color: white;
-border-color: black;
-border-radius: 60px;
-
-}
-
-button#selecionar{
-  float: right;
-  font-family: "Pokemon";
-  margin-top: 10px;
-  margin-right: 310px;
-  width: 120px;
-  background-color:#ff0d0d;
-  border-color:#ff0d0d;
- 
-}
-
-#um{
-  background-image: url('buba.jpg');
-}
+  h1 {
+    color:black;
+    font-family:"Pokemon";
+    font-size: 300px;
+    margin-left: 600px;
+  }
