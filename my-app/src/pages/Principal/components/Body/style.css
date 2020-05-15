@@ -1,5 +1,5 @@
 body {
-background-image: url('PLANANDO.jpg');
+background-image: url('../../../../public/fundo1.jpg');
 background-position-y: 120px;
 }
 #divl {
@@ -91,9 +91,9 @@ right: 300px;
     
 }
 
-section div:first-child{
+/*section div:first-child{
 
 }
 section div:last-child{
 
-}
+}*/

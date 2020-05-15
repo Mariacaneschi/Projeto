@@ -1,25 +1,19 @@
 import React from 'react';
-import './styles.css';
-import { InputGroup, FormControl, Button, Form} from 'react-bootstrap';
-import {useHistory} from 'react-router-dom';
+import './styles.css'
+import { InputGroup, FormControl, Button, Form } from 'react-bootstrap';
+import { useHistory } from 'react-router-dom';
 
 
 function Pokedex() {
+    return (
+        <div className="back h-100">
 
-return(
-    <div className = "App">
-        
-        <form action="/case" class="inline">
-    <button id= "adicionar" class="submit-button"> Adicionar Pokémons </button>
-</form>
-
-
-
-<h1> Minha Pokedex</h1>
-
-
-</div>
-)
+            <form action="/case" class="inline">
+                <button id="adicionar" class="submit-button"> Adicionar Pokémons </button>
+            </form>
+            <h1> Minha Pokedex</h1>
+        </div>
+    )
 
 }
 

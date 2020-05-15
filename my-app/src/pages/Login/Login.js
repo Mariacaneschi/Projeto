@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './style.css';
-import { InputGroup, FormControl, Button, Form} from 'react-bootstrap';
+import { InputGroup, FormControl, Button} from 'react-bootstrap';
 import {Email, VpnKey } from '@material-ui/icons';
 import {useHistory} from 'react-router-dom';
 
@@ -27,10 +27,6 @@ function Login() {
 
   return (
     <div className="back h-100">
-      <div className="header h-100px">
-        <img src='imagemPokemon.png' />
-      </div>
-
       <div className="login d-flex justify-content-center flex-column p-3">
         <h3>Login</h3>
         <div className="d-flex justify-content-center flex-column">

@@ -6,6 +6,7 @@ import Login from './pages/Login/Login';
 import Case from './pages/Case/Case';
 import Principal from './pages/Principal/Principal';
 import Pokedex from './pages/Pokedex/Pokedex';
+import Cadastro from './pages/Cadastro/Cadastro';
 
 
 
@@ -21,6 +22,8 @@ export default function Routes() {
                 <Route path="/case" exact component={Case}>
                 </Route>
                 <Route path="/pokedex" exact component={Pokedex}>
+                </Route>
+                <Route path="/cadastro" exact component={Cadastro}>
                 </Route>
             </Switch>
         </BrowserRouter>

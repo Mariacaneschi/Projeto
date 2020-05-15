@@ -2,16 +2,10 @@
 
 
 .back{
-    /*background-color: cornflowerblue;*/
-    background-image: url('../../fundo1.jpg');
+    background-image: url('../../public/fundo1.jpg');
     background-size: 100%;
     display: flex;
     flex-direction: column;
-}
-
-.header img{
-    height: 100px;
-    margin: 10px;
 }
 
 .login{
