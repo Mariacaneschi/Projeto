@@ -7,7 +7,7 @@
 }
      
 .App {
-    background-image: url('../../public/fundo1.jpg');
+    background-image: url('../../fundo1.jpg');
     background-size: 100%;
     display: flex;    
 }
