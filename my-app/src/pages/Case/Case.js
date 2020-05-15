@@ -1,117 +1,119 @@
 import React, { useState, useEffect } from 'react';
 import './styles.css';
 import { InputGroup, FormControl, Button } from 'react-bootstrap';
+
+
 const DATA = [
   {
     name: 'Bulbasaur',
     seleted: false
-} ,
+  },
 
-{
+  {
     name: 'Ivysaur',
     seleted: false
-} ,
-{
+  },
+  {
     name: 'Venusaur',
     seleted: false
-} ,
-{
+  },
+  {
     name: 'Charmander',
     seleted: false
-},
-{
+  },
+  {
     name: 'Charmeleon',
     seleted: false
-},
-{
+  },
+  {
     name: 'Charizard',
     seleted: false
-},
-{
+  },
+  {
     name: 'Squirtle',
     seleted: false
-},
-{
+  },
+  {
     name: 'Wartortle',
     seleted: false
-},
-{
+  },
+  {
     name: 'Blastoise',
     seleted: false
-},
-{
+  },
+  {
     name: 'Caterpie',
     seleted: false
-},
-{
+  },
+  {
     name: 'Metapod',
     seleted: false
-},
-{
+  },
+  {
     name: 'Butterfree',
     seleted: false
-},
-{
+  },
+  {
     name: 'Weedle',
     seleted: false
-},
-{
+  },
+  {
     name: 'Kakuna',
     seleted: false
-},
-{
+  },
+  {
     name: 'Beedrill',
     seleted: false
-},
-{
+  },
+  {
     name: 'Pidgey',
     seleted: false
-},
-{
+  },
+  {
     name: 'Pidgeotto',
     seleted: false
-},
-{
+  },
+  {
     name: 'Pidgeot',
     seleted: false
-},
-{
+  },
+  {
     name: 'Rattata',
     seleted: false
-},
-{
+  },
+  {
     name: 'Raticate',
     seleted: false
-},
-{
+  },
+  {
     name: 'Spearow',
     seleted: false
-},
-{
+  },
+  {
     name: 'Fearow',
     seleted: false
-},
-{
+  },
+  {
     name: 'Ekans',
     seleted: false
-},
-{
+  },
+  {
     name: 'Arbok',
     seleted: false
-},
-{
+  },
+  {
     name: 'Pikachu',
     seleted: false
-},
-{
+  },
+  {
     name: 'Raichu',
     seleted: false
-},
-{
+  },
+  {
     name: 'Sandshrew',
     seleted: false
-}];
-  
+  }];
+
 function App() {
 
 
@@ -124,7 +126,7 @@ function App() {
   }, [])
 
   function handleClick(index) {
-   
+
     const newData = [...data];
     const item = newData[index];
 
@@ -137,13 +139,15 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <button id = "selecionar" type="button" >Selecionar</button>
-      <h1> Selecione os Pokémons: </h1>
-      <div className="d-flex flex-wrap justify-content-center">
-      {data.map((obj, index) => {
-          return <Square value={obj.name} _selected={obj.seleted} onClick={() => handleClick(index)} />
-        })}
+    <div className="App h-100">
+      <div>
+        <button id="selecionar" type="button" >Selecionar</button>
+        <h1> Selecione os Pokémons: </h1>
+        <div className="d-flex flex-wrap justify-content-center">
+          {data.map((obj, index) => {
+            return <Square value={obj.name} _selected={obj.seleted} onClick={() => handleClick(index)} />
+          })}
+        </div>
       </div>
     </div>
   );
@@ -167,11 +171,11 @@ function Square(props) {
   else
     style.backgroundColor = 'slategray';
 
-    console.log(style.padding)
+  console.log(style.padding)
 
   return (
     <div className='square d-flex justify-content-center align-items-center' style={style}>
-      <button id= "botoes" onClick={() => onClick()} >{value}</button>
+      <button id="botoes" onClick={() => onClick()} >{value}</button>
     </div>
   )
 }

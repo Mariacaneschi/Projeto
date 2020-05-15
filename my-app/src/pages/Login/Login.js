@@ -27,10 +27,6 @@ function Login() {
 
   return (
     <div className="back h-100">
-      <div className="header h-100px">
-        <img src='imagemPokemon.png' />
-      </div>
-
       <div className="login d-flex justify-content-center flex-column p-3">
         <h3>Login</h3>
         <div className="d-flex justify-content-center flex-column">

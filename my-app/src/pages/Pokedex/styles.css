@@ -1,13 +1,10 @@
 @font-face {font-family: "Pokemon"; src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot"); src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff") format("woff"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.svg#Pokemon") format("svg"); }
 
-
 .back{
-    /*background-color: cornflowerblue;*/
-    background-image: url('../../fundo1.jpg');
-    background-size: 100%;
-    display: flex;
-    flex-direction: column;
-
+  background-image: url('../../public/fundo1.jpg');
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 button#adicionar{
@@ -19,12 +16,8 @@ button#adicionar{
     background-color:#ff0d0d;
     border-color:#ff0d0d;
     border-radius: 60px;
-
-   
   }
     
-
-
   h1 {
     color:black;
     font-family:"Pokemon";
