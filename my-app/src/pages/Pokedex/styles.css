@@ -10,17 +10,20 @@
 button#adicionar{
     float: right;
     font-family: "Pokemon";
-    margin-top: 10px;
-    margin-right: 310px;
+    position: absolute;
+    top: 100px;
     width: 120px;
     background-color:#ff0d0d;
     border-color:#ff0d0d;
     border-radius: 60px;
+    right: 500px;
   }
     
   h1 {
     color:black;
     font-family:"Pokemon";
-    font-size: 300px;
-    margin-left: 600px;
+    font-size: 100px;
+    position: absolute;
+    top: 100px;
+    left: 800px;
   }
