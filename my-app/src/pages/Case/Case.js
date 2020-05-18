@@ -133,7 +133,7 @@ function App() {
     item.seleted = !item.seleted;
 
     setData(newData);
-
+    
     console.log(item);
     console.log('Clicou');
   }
@@ -141,9 +141,14 @@ function App() {
   return (
     <div className="App h-100">
       <div>
-        <button id="selecionar" type="button" >Selecionar</button>
-        <h1> Selecione os Pokémons: </h1>
-        <div className="d-flex flex-wrap justify-content-center">
+
+        
+        <h1 id = "titulo" className="d-flex flex-wrap justify-content-center"> Selecione os Pokémons: </h1>
+        <button id="selecionar" type="button" className="d-flex flex-wrap justify-content-center" >Selecionar</button>
+
+        
+
+        <div id = "quadrados" className="d-flex flex-wrap justify-content-center">
           {data.map((obj, index) => {
             return <Square value={obj.name} _selected={obj.seleted} onClick={() => handleClick(index)} />
           })}
@@ -165,6 +170,7 @@ function Square(props) {
   const style = {
     borderRadius: '30px',
     margin: '5px',
+    borderTop: '30px'
   };
   if (selected)
     style.backgroundColor = 'green';
