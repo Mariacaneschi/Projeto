@@ -45,10 +45,15 @@ button#selecionar{
  
 }
 
-#um{
-  background-image: url('buba.jpg');
-}
+button#voltar{
+  float: left;
+  font-family: "Pokemon";
+  margin-left: 250px;
+  width: 120px;
+  top: 20px;
+  position: unset;
 
+}
 
 
 div#quadrados{

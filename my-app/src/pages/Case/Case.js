@@ -144,6 +144,10 @@ function App() {
 
         
         <h1 id = "titulo" className="d-flex flex-wrap justify-content-center"> Selecione os Pokémons: </h1>
+
+        <form action="/pokedex" class="inline">
+                <button id="voltar" class="btn btn-outline-danger"> Voltar </button>
+            </form>
         <button id="selecionar" type="button" className="d-flex flex-wrap justify-content-center" >Selecionar</button>
 
         
