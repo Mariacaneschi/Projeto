@@ -2,21 +2,82 @@
     background-image: url('../../fundo1.jpg');
     background-size: 100%;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    width: 100%;   
+}
+.teste{
+    width: 500px;
+    margin: auto;
 }
 
-.form-cadastro{
+.mensagem{
+    margin-top: 15px;
+    font-size: 30px;
+    color: gold;
+    font-weight: bolder;
+}
+
+.mensagem p{
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.mensagem h6{
+    font-weight: normal;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.form{
     width: 400px;
-    height: 500px;
-    margin: auto;
+    height: 430px;
+    margin: auto auto auto auto;
     background-color: rgba(241, 219, 16, 0.877);
     border-radius: 20px;
     border-style: solid;
     border-color: black;
 }
 
+label{
+    font-size: 16px;
+    color: royalblue;
+    margin-left: 20px;
+}
+
+.inputs{
+    text-align: center;
+}
+
 .form-field{
     width: 350px;
-    margin-left: 20px;
-    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-style: none;
 }
+
+.radio{
+    margin-left: 20px;
+}
+
+.radio .form-field{
+    background-color: white;
+    font-size: 19px;
+    color: rgb(90, 105, 121);
+}
+
+.radio input{
+    margin-left: 10px;
+}
+
+.button{
+    background-color: royalblue;
+    border-style: none;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    color: yellow;
+}
+

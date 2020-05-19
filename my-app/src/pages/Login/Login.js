@@ -7,7 +7,7 @@ import {useHistory} from 'react-router-dom';
 
 function Login() {
   const usuario = "equipe2@cpe.br";
-  const senha = "cpe";
+  const senha = "traineecpe2020";
 
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -58,7 +58,7 @@ function Login() {
           </InputGroup>
         </div>
         <p style={{color: 'royalblue', fontSize: '15px', textAlign: 'center'}}>
-          Não tem uma conta? <a href="http://google.com" className="text-decoration-none">Cadastre-se</a>
+          Não tem uma conta? <a href="/cadastro" className="text-decoration-none">Cadastre-se</a>
           </p>
         <Button onClick = {() => handleChange()} className="mt-2 col-3.5 mx-auto">Entrar</Button>
       </div>
