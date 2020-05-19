@@ -646,7 +646,7 @@ function App() {
                 <button id="voltar" class="btn btn-outline-danger"> Voltar </button>
             </form>
 
-        <button id="selecionar" type="button" className="d-flex flex-wrap justify-content-center" >Selecionar</button>
+        <button id="selecionar" type="button" class="btn btn-danger"> Selecionar </button>
 
         
 

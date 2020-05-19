@@ -36,6 +36,7 @@ border-radius: 60px;
 button#selecionar{
   float: right;
   font-family: "Pokemon";
+  color: black;
   margin-right: 250px;
   width: 120px;
   background-color:#ff0d0d;
