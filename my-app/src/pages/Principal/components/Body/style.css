@@ -1,27 +1,20 @@
 body {
-background-image: url('../../../../fundo1.jpg');
-background-position-y: 120px;
+    background-image: url('../../../../fundo1.jpg');
+    background-position-y: 120px;
+    background-size: 100%;
 }
+
 @font-face {
     font-family: 'Pokemon Solid';
     src: url('Pokemon\ Solid.ttf');
  }
-#divl {
-height: 69%;
-width: 33%; 
-background-color: rgba(241, 219, 16, 0.877);
-color: white;
-border-top-left-radius: 20px;
-border-top-right-radius: 20px;
-border-bottom-right-radius: 20px;
-border-bottom-left-radius: 20px;
-border-style: groove;
-border-color: black;
-border-width: 7px;
-position: absolute;
-top: 185px;
-left: 300px;
+
+.central {
+    margin: auto;
+    width: 1500px;
+    height: 950px;    
 }
+
 #meowth {
     clear: both;
     position: relative;
@@ -29,25 +22,27 @@ left: 300px;
     top: 30px;
     
 }
+
 #mm {
     height: 370px;
     width: 320px;
     
 }
 
-
 #balão {
-clear:both;
-position: relative;
-left: 230px;
-bottom: 460px;
+    clear:both;
+    position: relative;
+    left: 230px;
+    bottom: 460px;
 }
+
 #balao {
     height: 200px;
     width: 200px;
     position: absolute;
     
 }
+
 #fala {
     font-family: 'Comic Sans MS';
     font-size: 18px;
@@ -58,53 +53,64 @@ bottom: 460px;
     justify-content: center;
     text-align: center;
 }
+
 #divrup {
-height: 41%;
-width: 20%;
-background-color: rgba(241, 219, 16, 0.877);
-border-radius: 20px;
-border-style: groove;
-border-color:black;
-border-width: 7px;
-position: absolute;
-right: 300px;
-top: 185px;
+    height: 41%;
+    width: 20%;
+    background-color: rgba(241, 219, 16, 0.877);
+    border-radius: 20px;
+    border-style: groove;
+    border-color:black;
+    border-width: 7px;
+    position: absolute;
+    right: 300px;
+    top: 185px;
 }
+
 #divrdown{
-height: 22.7%;
-width: 33%;
-border-style: groove;
-border-color:black;
-border-width: 7px;
-border-top-left-radius: 20px;
-border-top-right-radius: 20px;
-border-bottom-right-radius: 20px;
-border-bottom-left-radius: 20px;
-background-color: rgba(241, 219, 16, 0.877);
-position: absolute;
-top: 625px;
-right: 300px;
-
-
-
+    height: 22.7%;
+    width: 33%;
+    border-style: groove;
+    border-color:black;
+    border-width: 7px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgba(241, 219, 16, 0.877);
+    position: absolute;
+    top: 625px;
+    right: 300px;
 
 }
-.central {
-    margin: auto;
-    width: 1500px;
-    height: 950px;    
+
+#divl {
+    height: 69%;
+    width: 33%; 
+    background-color: rgba(241, 219, 16, 0.877);
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-style: groove;
+    border-color: black;
+    border-width: 7px;
+    position: absolute;
+    top: 185px;
+    left: 300px;
 }
 
 #carousels {
-width: 80%;
-height: 43.5%;
-position: relative;
-left: 10%;
-top: 6%;
-border-style: solid;
-border-width: 10px;
-border-color: black;
-border-radius: 10px;
+    width: 80%;
+    height: 43.5%;
+    position: relative;
+    left: 10%;
+    top: 6%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 10px;
 }
 
 #pokebola1 {
@@ -113,9 +119,8 @@ border-radius: 10px;
     left: 3%;
     height: 6%;
     width: 6%;
-  
-
 }
+
 #pokebola2 {
     position: absolute;
     top: 66.5%;
@@ -123,13 +128,13 @@ border-radius: 10px;
     height: 6%;
     width: 6%;
 }
+
 #pokebola3 {
     position: absolute;
     top: 78.5%;
     left: 3%;
     height: 6%;
     width: 6%;
-
 }
 #cadastro {
     height: 12%;
@@ -143,18 +148,19 @@ border-radius: 10px;
     border-color: black;
     border-radius: 10px;
 }
+
 #cadastrotexto {
     font-family: 'Pokemon Solid';
     font-size: 170%;
-   color: rgb(247, 241, 241);
-   font-weight: bold;
-   text-shadow: 1px 3px 1px darkred;
-   letter-spacing: 3px;
-   position: absolute;
-   bottom: 25%;
-   right: 3%;
-
+    color: rgb(247, 241, 241);
+    font-weight: bold;
+    text-shadow: 1px 3px 1px darkred;
+    letter-spacing: 3px;
+    position: absolute;
+    bottom: 25%;
+    right: 3%;
 }
+
 #propaganda1 {
     font-family: 'Comic Sans MS';
     font-size: 120%;
@@ -163,8 +169,8 @@ border-radius: 10px;
     position: absolute;
     top: 55%;
     left: 11%;
-
 }
+
 #propaganda2 {
     font-family: 'Comic Sans MS';
     font-size: 120%;
@@ -173,8 +179,8 @@ border-radius: 10px;
     position: absolute;
     top: 67%;
     left: 11%;
-
 }
+
 #propaganda3 {
     font-family: 'Comic Sans MS';
     font-size: 120%;
@@ -195,11 +201,12 @@ border-radius: 10px;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
+
 #bulba {
     height: 125%;
-width: 67%;
-position: absolute;
-left: 82%;
-top: -15%;
+    width: 67%;
+    position: absolute;
+    left: 82%;
+    top: -15%;
 }
 
