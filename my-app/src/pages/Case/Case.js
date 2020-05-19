@@ -613,7 +613,6 @@ const DATA = [
 
 function App() {
 
-
   const [data, setData] = useState(DATA);
 
   console.log('renderizou');
