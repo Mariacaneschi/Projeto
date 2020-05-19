@@ -1,0 +1,32 @@
+#img1 {
+    background-color:  rgba(30, 144, 255, 0.877);
+    position: absolute;
+bottom: 0;
+left:0;
+
+    height: 70px;
+    width: 100%;
+    margin: 0;
+    
+    border-style: solid;
+    border-top-color: yellow;
+    border-top-width: 5px;
+
+ }
+
+ #menu {
+     text-align: center;
+     color: black;
+     font-family: 'Comic Sans MS';
+     font-size: 18px;
+     position: relative;
+     top: 30%;
+ }
+
+ #logocpe {
+     height: 70%;
+     width: 10%;
+     position: absolute;
+     left: 0.5%;
+     bottom: 10%;
+ }
