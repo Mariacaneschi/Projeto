@@ -7,7 +7,7 @@ import {useHistory} from 'react-router-dom';
 
 function Login() {
   const usuario = "equipe2@cpe.br";
-  const senha = "traineecpe2020";
+  const senha = "traineecpe";
 
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');

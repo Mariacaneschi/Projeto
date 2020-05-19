@@ -44,14 +44,14 @@ export default function Cadastro() {
                         />
                     </div>
 
-                    <label>Crie uma senha (mínimo 6 caracteres):</label>
+                    <label>Crie uma senha (de 6 a 10 caracteres):</label>
                     <div className="inputs">
                         <input
                             className="form-field"
                             type="password"
                             name="senha"
                             placeholder="Senha"
-                            pattern=".{6,}"
+                            pattern=".{6,10}"
                             required="required"
                         />
                     </div>
