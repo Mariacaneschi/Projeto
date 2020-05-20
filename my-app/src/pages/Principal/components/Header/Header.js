@@ -16,6 +16,13 @@ const Header = () => (
 <Button variant="contained" id="pokedex">
     <div id="pokedextexto">Pokedex</div>
     </Button></Link> 
+    <a href="https://www.pokemon.com/br/">
+       <Button variant="contained" id="pokemonoficial">
+           <div id="pokemon">
+               Site Oficial
+           </div>
+       </Button>
+       </a>
 <div id="titulo">Pokedex online</div></header> 
 );
 

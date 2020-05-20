@@ -210,3 +210,33 @@ body {
     top: -15%;
 }
 
+#pokebola4 {
+    height: 18%;
+    width: 6%;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+
+}
+#propaganda4 {
+    font-family: 'Comic Sans MS';
+    font-size: 120%;
+    color: black;
+    font-weight: bolder;
+    position: absolute;
+    top: 7%;
+    left: 9%;
+
+}
+
+#propaganda5 {
+    font-family: 'Comic Sans MS';
+    font-size: 110%;
+    color: black;
+    font-weight: bolder;
+    position: absolute;
+    top: 23%;
+    left: 2%;
+    right: 15%;
+}
+
