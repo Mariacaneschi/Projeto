@@ -1,0 +1,11 @@
+
+.login{
+    background: none;
+}
+
+.login h3{
+    color:  black;
+    text-align: center;
+    font-family: "Pokemon";
+    margin-bottom: 20px;
+}

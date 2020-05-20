@@ -24,13 +24,10 @@ function Login() {
     }
   }
 
-
   return (
-    <div className="back h-100">
       <div className="login d-flex justify-content-center flex-column p-3">
         <h3>Login</h3>
-        <div className="d-flex justify-content-center flex-column">
-          
+        <div className="d-flex justify-content-center flex-column"> 
           <InputGroup className="mb-3">
             <InputGroup.Prepend>
               <InputGroup.Text id="basic-addon1"><Email></Email></InputGroup.Text>
@@ -57,12 +54,9 @@ function Login() {
             />
           </InputGroup>
         </div>
-        <p style={{color: 'royalblue', fontSize: '15px', textAlign: 'center'}}>
-          Não tem uma conta? <a href="/cadastro" className="text-decoration-none">Cadastre-se</a>
-          </p>
-        <Button onClick = {() => handleChange()} className="mt-2 col-3.5 mx-auto">Entrar</Button>
+
+        <Button onClick = {() => handleChange()} className="mt-2 col-3.5 mx-auto" variant="dark">Entrar</Button>
       </div>
-    </div>
   );
 }
 
