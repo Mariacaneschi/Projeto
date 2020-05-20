@@ -613,7 +613,6 @@ const DATA = [
 
 function App() {
 
-
   const [data, setData] = useState(DATA);
 
   console.log('renderizou');
@@ -674,6 +673,7 @@ function Square(props) {
     margin: '5px',
     borderTop: '30px'
   };
+
   if (selected)
     style.backgroundColor = 'green';
   else
