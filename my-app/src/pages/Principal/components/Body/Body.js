@@ -4,16 +4,20 @@ import { carousel } from 'bootstrap';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './style.css';
+import Login from '../Login/Login';
 
 const Body = () => (
   <body id="main-body">
-    <div class="central">
+    <div className="central">
       <div id="divrup">
         <div id="meowth">
           <img id="mm" src="https://i.imgur.com/DghKK7X.png"></img>
           <div id="balão">
             <img id="balao" src="https://i.imgur.com/l0w6gLa.png"></img>
           </div>
+        </div>
+        <div className="login">
+          <Login></Login>
         </div>
       </div>
       <div id="divl">
