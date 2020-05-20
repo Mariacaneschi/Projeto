@@ -55,7 +55,7 @@ function Login() {
           </InputGroup>
         </div>
 
-        <Button onClick = {() => handleChange()} className="mt-2 col-3.5 mx-auto" variant="dark">Entrar</Button>
+        <Button onClick = {() => handleChange()} className="mt-2 col-5 mx-auto" variant="dark" style={{fontSize:"25px", fontFamily:"Comic Sans MS"}}>Entrar</Button>
       </div>
   );
 }
