@@ -52,7 +52,7 @@ const Body = () => (
         <img id="pokebola3" src="https://i.imgur.com/FOn6jlT.png"></img>
         <div id="propaganda3">Venha ser um treinador pokemon! Clique no botão abaixo!</div>
         <br></br>
-        <Link to="/login">
+        <Link to="/cadastro">
           <Button variant="contained" id="cadastro">
             <div id="cadastrotexto">Cadastre-se aqui!</div>
           </Button></Link>
