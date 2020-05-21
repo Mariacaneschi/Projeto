@@ -17,6 +17,7 @@
     color: gold;
     font-weight: bolder;
     font-family: "Comic Sans MS"; 
+    text-shadow: 1px 1px 1px black;
 }
 
 .mensagem p{
@@ -62,6 +63,16 @@ label{
 
 .radio{
     margin-left: 20px;
+}
+
+
+.selecao{
+
+
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    
 }
 
 .radio .form-field{

@@ -56,23 +56,12 @@ export default function Cadastro() {
                     </div>
 
                     <label>Escolha sua função:</label>
-                    <div className="radio">
-                        <div className="form-field">
-                            <input
-                                type="radio"
-                                name="funcao"
-                                value="treinador"
-                                required="required"
-                            />  Treinador
-                        <br></br>
-                            <input
-                                type="radio"
-                                name="funcao"
-                                value="professor"
-                                required="required"
-                            />  Professor
-                    </div>
-                    </div>
+                    <select className="selecao">
+                    <option value="1">Treinador</option>
+                    <option value="2">Professor</option>
+                        
+                    </select>
+
                     <div className="inputs">
                         <input type="submit" className="button"/>
                     </div>
@@ -81,4 +70,7 @@ export default function Cadastro() {
         </div>
     );
 }
+
+
+
 
