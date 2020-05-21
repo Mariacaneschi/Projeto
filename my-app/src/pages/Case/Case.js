@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './styles.css';
 import { InputGroup, FormControl, Button } from 'react-bootstrap';
+import {Link} from 'react-router-dom'; 
 
 
 const DATA = [
   {
     name: 'Bulbasaur',
-    seleted: false
+    
   },
 
   {
@@ -615,14 +616,15 @@ function App() {
 
   const [data, setData] = useState(DATA);
 
-  console.log('renderizou');
+  const [selecionados, setSelecionados] = useState([])
 
-  useEffect(() => {
-    console.log('EXECUTOU UMA VEZ');
-  }, [])
+  function addpokemon (pokemon){
+    setSelecionados(selecionados.push(pokemon))
+  }
 
   function handleClick(index) {
 
+    setSelecionados([...selecionados, data[index]])
     const newData = [...data];
     const item = newData[index];
 
@@ -630,9 +632,12 @@ function App() {
 
     setData(newData);
     
-    console.log(item);
-    console.log('Clicou');
+  
+    console.log(selecionados);
+
   }
+
+
 
   return (
     <div className="App h-100">
@@ -645,13 +650,17 @@ function App() {
                 <button id="voltar" class="btn btn-outline-danger"> Voltar </button>
             </form>
 
-        <button id="selecionar" type="button" class="btn btn-danger"> Selecionar </button>
+        <Link id="selecionar" class="btn btn-danger"  to={{
+            pathname: '/pokedex',
+            state: {
+              selecionados: selecionados
+            }}}> Selecionar </Link>
 
         
 
         <div id = "quadrados" className="d-flex flex-wrap justify-content-center">
           {data.map((obj, index) => {
-            return <Square value={obj.name} _selected={obj.seleted} onClick={() => handleClick(index)} />
+            return <Square value={obj.name} _selected={obj.seleted} onClick={() => handleClick(index)} addpokemon = {addpokemon} />
           })}
         </div>
       </div>
@@ -679,7 +688,7 @@ function Square(props) {
   else
     style.backgroundColor = 'slategray';
 
-  console.log(style.padding)
+  //console.log(style.padding)
 
   return (
     <div className='square d-flex justify-content-center align-items-center' style={style}>
