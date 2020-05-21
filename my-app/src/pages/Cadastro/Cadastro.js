@@ -10,12 +10,11 @@ export default function Cadastro() {
 
     return (
         <div className="cadastro h-100">
-            <div className="teste d-flex justify-content-center flex-column">
+            <div className="tamanho d-flex justify-content-center flex-column">
                 <div className="mensagem d-flex justify-content-center flex-column align-items-center">
                     Bem vindo à sua nova Pokedex!
                 <br />
                     <p>Aqui você poderá realizar o cadastro para descobrir um novo mundo com seus Pokemóns preferidos!</p>
-                    <h6>Por favor, preencha os campos abaixo com seus dados corretamente e depois de enviar poderá fazer o login na página principal e poderá conhecer as experiências maravilhosas que o aguardam.</h6>
                 </div>
 
                 <form onSubmit={() => redireciona()} className="form d-flex justify-content-center flex-column">
@@ -75,7 +74,7 @@ export default function Cadastro() {
                     </div>
                     </div>
                     <div className="inputs">
-                        <input type="submit" className="button" />
+                        <input type="submit" className="button"/>
                     </div>
                 </form>
             </div>
