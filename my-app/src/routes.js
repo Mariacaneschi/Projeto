@@ -18,7 +18,7 @@ export default function Routes() {
                 </Route>
                 <Route path="/case" exact component={Case}>
                 </Route>
-                <Route path="/pokedex" exact component={Pokedex}>
+                <Route path="/pokedex" component={Pokedex}>
                 </Route>
                 <Route path="/cadastro" exact component={Cadastro}>
                 </Route>

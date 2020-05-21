@@ -6,11 +6,14 @@ import { useHistory } from 'react-router-dom';
 
 
 
-function Pokedex() {
+
+function Pokedex(props) {
+    const selecionados =  props.location.state.selecionados
     return (
         <div className="back h-100">
             <form action="/case" class="inline">
                 <button id="adicionar" class="btn btn-button"> Adicionar Pokémons </button>
+                
             </form>
             <h1> Minha Pokedex</h1>
         </div>
