@@ -3,9 +3,10 @@
     background-size: 100%;
     display: flex;
     flex-direction: column;
-    width: 100%;   
+    width: 100%;  
 }
-.teste{
+
+.tamanho{
     width: 500px;
     margin: auto;
 }
@@ -15,19 +16,21 @@
     font-size: 30px;
     color: gold;
     font-weight: bolder;
+    font-family: "Comic Sans MS"; 
 }
 
 .mensagem p{
     font-size: 20px;
     font-weight: normal;
     text-align: center;
+    margin-top: 25px;
 }
 
-.mensagem h6{
+/*.mensagem h6{
     font-weight: normal;
     font-size: 15px;
     text-align: justify;
-}
+}*/
 
 .form{
     width: 400px;
@@ -41,8 +44,9 @@
 
 label{
     font-size: 16px;
-    color: royalblue;
+    color: black;
     margin-left: 20px;
+    font-family: "Comic Sans MS"; 
 }
 
 .inputs{
@@ -71,13 +75,14 @@ label{
 }
 
 .button{
-    background-color: royalblue;
+    background-color: #292B2A;
     border-style: none;
     margin-top: 10px;
     margin-bottom: 0px;
     width: 70px;
     height: 40px;
     border-radius: 5px;
-    color: yellow;
+    color: white;
+    font-family: "Comic Sans MS"; 
 }
 
