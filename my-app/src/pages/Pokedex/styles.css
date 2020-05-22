@@ -28,10 +28,12 @@ button#adicionar{
     left: 600px;
   }
 
-  .square {
-    height: 200px;
-    width: 200px;
-    background-color: yellow;
-    
-  }
+ #quadrs{
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  border-radius: 30px;
+  margin: 5px;
+  
+ }
    
