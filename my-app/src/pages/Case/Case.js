@@ -12,11 +12,11 @@ const DATA = [
 
   {
     name: 'Ivysaur',
-    seleted: false
+    
   },
   {
     name: 'Venusaur',
-    seleted: false
+    
   },
   {
     name: 'Charmander',
@@ -637,6 +637,7 @@ function App() {
 
   }
 
+  
 
 
   return (
