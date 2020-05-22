@@ -33,9 +33,12 @@ function Square(props){
     
     const value = props.value;    
     return (
-        <div >
+        <div id = "quadrs" className = "d-flex flex-wrap justify-content-center">
             {value}
         </div>
+
+ 
+
     )
 }
 
