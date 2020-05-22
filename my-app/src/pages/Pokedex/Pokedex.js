@@ -3,6 +3,7 @@ import React from 'react';
 import './styles.css'
 import { InputGroup, FormControl, Button, Form } from 'react-bootstrap';
 import { useHistory } from 'react-router-dom';
+import {Link} from 'react-router-dom'; 
 
 
 
@@ -15,9 +16,13 @@ function Pokedex(props) {
         <div className="back h-100">
             <h1> Minha Pokedex</h1>
 
-            <form action="/case" class="inline">
-                <button id="adicionar" class="btn btn-button"> Adicionar Pokémons </button> 
-            </form>
+            
+            <Link id="adicionar" class="btn btn-danger"  to={{
+            pathname: '/case',
+            }}> Adicionar Pokémons </Link>
+
+        
+
 
             <div className = "d-flex flex-wrap justify-content-center">
                 {selecionados.map(obj => {
