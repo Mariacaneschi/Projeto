@@ -56,14 +56,15 @@ export default function Cadastro() {
                     </div>
 
                     <label>Escolha sua função:</label>
-                    <select className="selecao">
-                    <option value="1">Treinador</option>
-                    <option value="2">Professor</option>
-                        
-                    </select>
+                    <div className="inputs">
+                        <select className="form-field">
+                            <option value="1">Treinador</option>
+                            <option value="2">Professor</option>
+                        </select>
+                    </div>
 
                     <div className="inputs">
-                        <input type="submit" className="button"/>
+                        <input type="submit" className="button" />
                     </div>
                 </form>
             </div>
