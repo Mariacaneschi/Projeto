@@ -10,7 +10,25 @@ import {Link} from 'react-router-dom';
 
 function Pokedex(props) {
 
-    const selecionados =  props.location.state.selecionados
+    //const selecionados =  props.location.state.selecionados
+
+
+    let selecionados;
+    if(props.location.state) selecionados = props.location.state.selecionados
+    else {return (
+    
+    <div className="back h-100">
+    <h1> Minha Pokedex</h1>
+
+    
+    <Link id="adicionar" class="btn btn-danger"  to={{
+    pathname: '/case',
+    }}> Adicionar Pokémons </Link>
+
+
+
+</div>
+)}
 
     return (
         <div className="back h-100">
@@ -33,6 +51,8 @@ function Pokedex(props) {
     )
 
 }
+
+
 
 function Square(props){
     
