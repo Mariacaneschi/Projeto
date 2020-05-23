@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import './styles.css';
 import { InputGroup, FormControl, Button } from 'react-bootstrap';
 import {Link} from 'react-router-dom'; 
+import { ButtonBase } from '@material-ui/core';
+import Buba from './buba.jpg'
+
 
 
 const DATA = [
@@ -677,6 +680,8 @@ function Square(props) {
   useEffect(() => {
     setSelected(_selected);
   }, [_selected]);
+
+
 
   const style = {
     borderRadius: '30px',
