@@ -62,7 +62,6 @@ function Square(props){
             {value}
         </div>
 
- 
 
     )
 }
