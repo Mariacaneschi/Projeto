@@ -62,7 +62,7 @@ function Square(props){
     const image = props.image;  
     return (
         <div id = "quadrs" className = "d-flex flex-wrap justify-content-center">
-            {value}
+           <div id = "np"> {value} </div>
             <img className="pokefotos" src={image}></img>
         </div>
 
