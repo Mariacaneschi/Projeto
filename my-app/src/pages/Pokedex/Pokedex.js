@@ -25,7 +25,7 @@ function Pokedex(props) {
     pathname: '/case',
     }}> Adicionar Pokémons </Link>
 
-
+    
 
 </div>
 )}
@@ -34,6 +34,7 @@ function Pokedex(props) {
         <div className="back h-100">
             <h1> Minha Pokedex</h1>
 
+            
             
             <Link id="adicionar" class="btn btn-danger"  to={{
             pathname: '/case',
@@ -47,6 +48,7 @@ function Pokedex(props) {
                     return <Square value = {obj.name} image = {obj.foto}/>
                 })}
             </div>
+
         </div>
     )
 
@@ -67,6 +69,7 @@ function Square(props){
 
     )
 }
+
 
 export default Pokedex;
 

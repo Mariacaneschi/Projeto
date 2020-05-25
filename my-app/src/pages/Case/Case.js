@@ -3,7 +3,6 @@ import './styles.css';
 import { InputGroup, FormControl, Button } from 'react-bootstrap';
 import {Link} from 'react-router-dom'; 
 import { ButtonBase } from '@material-ui/core';
-import Buba from './buba.jpg'
 
 
 
