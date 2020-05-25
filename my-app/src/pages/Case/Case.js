@@ -8,758 +8,758 @@ import { ButtonBase } from '@material-ui/core';
 
 const DATA = [
   { 
-    name: 'Bulbasaur',
+    name: '#1 - Bulbasaur',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png'
     
   },
 
   {
-    name: 'Ivysaur',
+    name: '#2 - Ivysaur',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png'
     
   },
   {
-    name: 'Venusaur',
+    name: '#3 - Venusaur',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png'
   },
   {
-    name: 'Charmander',
+    name: '#4 - Charmander',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png',
     seleted: false
     
   },
   {
-    name: 'Charmeleon',
+    name: '#5 - Charmeleon',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png',
     seleted: false
   },
   {
-    name: 'Charizard',
+    name: '#6 - Charizard',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png',
     seleted: false
   },
   {
-    name: 'Squirtle',
+    name: '#7 - Squirtle',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png',
     seleted: false
   },
   {
-    name: 'Wartortle',
+    name: '#8 - Wartortle',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png',
     seleted: false
   },
   {
-    name: 'Blastoise',
+    name: '#9 - Blastoise',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png',
     seleted: false
   },
   {
-    name: 'Caterpie',
+    name: '#10 - Caterpie',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png',
     seleted: false
   },
   {
-    name: 'Metapod',
+    name: '#11 - Metapod',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png',
     seleted: false
   },
   {
-    name: 'Butterfree',
+    name: '#12 - Butterfree',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png',
     seleted: false
   },
   {
-    name: 'Weedle',
+    name: '#13 - Weedle',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png',
     seleted: false
   },
   {
-    name: 'Kakuna',
+    name: '#14 - Kakuna',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png',
     seleted: false
   },
   {
-    name: 'Beedrill',
+    name: '#15 - Beedrill',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png',
     seleted: false
   },
   {
-    name: 'Pidgey',
+    name: '#16 - Pidgey',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png',
     seleted: false
   },
   {
-    name: 'Pidgeotto',
+    name: '#17 - Pidgeotto',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png',
     seleted: false
   },
   {
-    name: 'Pidgeot',
+    name: '#18 - Pidgeot',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png',
     seleted: false
   },
   {
-    name: 'Rattata',
+    name: '#19 - Rattata',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png',
     seleted: false
   },
   {
-    name: 'Raticate',
+    name: '#20 - Raticate',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png',
     seleted: false
   },
   {
-    name: 'Spearow',
+    name: '#21 - Spearow',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png',
     seleted: false
   },
   {
-    name: 'Fearow',
+    name: '#22 - Fearow',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/022.png',
     seleted: false
   },
   {
-    name: 'Ekans',
+    name: '#23 - Ekans',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png',
     seleted: false
   },
   {
-    name: 'Arbok',
+    name: '#24 - Arbok',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png',
     seleted: false
   },
   {
-    name: 'Pikachu',
+    name: '#25 - Pikachu',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png',
     seleted: false
   },
   {
-    name: 'Raichu',
+    name: '#26 - Raichu',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/026.png',
     seleted: false
   },
   {
-    name: 'Sandshrew',
+    name: '#27 - Sandshrew',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png',
     seleted: false
   },
   {
-    name: 'Sandslash',
+    name: '#28 - Sandslash',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/028.png',
     seleted: false
   },
   {
-    name: 'Nidoran F',
+    name: '#29 - Nidoran F',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png',
     seleted: false
   },
   {
-    name: 'Nidorina',
+    name: '#30 - Nidorina',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/030.png',
     seleted: false
   },
   {
-    name: 'Nidoqueen',
+    name: '#31 - Nidoqueen',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/031.png',
     seleted: false
   },
   {
-    name: 'Nidoran M',
+    name: '#32 - Nidoran M',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png',
     seleted: false
   },
   {
-    name: 'Nidorino',
+    name: '#33 - Nidorino',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/033.png',
     seleted: false
   },
   {
-    name: 'Nidoking',
+    name: '#34 - Nidoking',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png',
     seleted: false
   },
   {
-    name: 'Clefairy',
+    name: '#35 - Clefairy',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png',
     seleted: false
   },
   {
-    name: 'Clefable',
+    name: '#36 - Clefable',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/036.png',
     seleted: false
   },
   {
-    name: 'Vulpix',
+    name: '#37 - Vulpix',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png',
     seleted: false
   },
   {
-    name: 'Ninetales',
+    name: '#38 - Ninetales',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png',
     seleted: false
   },
   {
-    name: 'Jigglypuff',
+    name: '#39 - Jigglypuff',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png',
     seleted: false
   },
   {
-    name: 'Wigglytuff',
+    name: '#40 - Wigglytuff',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/040.png',
     seleted: false
   },
   {
-    name: 'Zubat',
+    name: '#41 - Zubat',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png',
     seleted: false
   },
   {
-    name: 'Golbat',
+    name: '#42 - Golbat',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/042.png',
     seleted: false
   },
   {
-    name: 'Oddish',
+    name: '#43 - Oddish',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png',
     seleted: false
   },
   {
-    name: 'Gloom',
+    name: '#44 - Gloom',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/044.png',
     seleted: false
   },
   {
-    name: 'Vileplume',
+    name: '#45 - Vileplume',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png',
     seleted: false
   },
   {
-    name: 'Paras',
+    name: '#46 - Paras',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/046.png',
     seleted: false
   },
   {
-    name: 'Parasect',
+    name: '#47 - Parasect',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/047.png',
     seleted: false
   },
   {
-    name: 'Venonat',
+    name: '#48 - Venonat',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/048.png',
     seleted: false
   },
   {
-    name: 'Venomoth',
+    name: '#49 - Venomoth',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/049.png',
     seleted: false
   },
   {
-    name: 'Diglett',
+    name: '#50 - Diglett',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/050.png',
     seleted: false
   },
   {
-    name: 'Dugtrio',
+    name: '#51 - Dugtrio',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/051.png',
     seleted: false
   },
   {
-    name: 'Meowth',
+    name: '#52 - Meowth',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png',
     seleted: false
   },
   {
-    name: 'Persian',
+    name: '#53 - Persian',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/053.png',
     seleted: false
   },
   {
-    name: 'Psyduck',
+    name: '#54 - Psyduck',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png',
     seleted: false
   },
   {
-    name: 'Golduck',
+    name: '#55 - Golduck',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png',
     seleted: false
   },
   {
-    name: 'Mankey',
+    name: '#56 - Mankey',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/056.png',
     seleted: false
   },
   {
-    name: 'Primeape',
+    name: '#57 - Primeape',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/057.png',
     seleted: false
   },
   {
-    name: 'Growlithe',
+    name: '#58 - Growlithe',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/058.png',
     seleted: false
   },
   {
-    name: 'Arcanine',
+    name: '#59 - Arcanine',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/059.png',
     seleted: false
   },
   {
-    name: 'Poliwag',
+    name: '#60 - Poliwag',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/060.png',
     seleted: false
   },
   {
-    name: 'Poliwhirl',
+    name: '#61 - Poliwhirl',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/061.png',
     seleted: false
   },
   {
-    name: 'Poliwrath',
+    name: '#62 - Poliwrath',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/062.png',
     seleted: false
   },
   {
-    name: 'Abra',
+    name: '#63 - Abra',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png',
     seleted: false
   },
   {
-    name: 'Kadabra',
+    name: '#64 - Kadabra',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/064.png',
     seleted: false
   },
   {
-    name: 'Alakazam',
+    name: '#65 - Alakazam',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/065.png',
     seleted: false
   },
   {
-    name: 'Machop',
+    name: '#66 - Machop',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png',
     seleted: false
   },
   {
-    name: 'Machoke',
+    name: '#67 - Machoke',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/067.png',
     seleted: false
   },
   {
-    name: 'Machamp',
+    name: '#68 - Machamp',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/068.png',
     seleted: false
   },
   {
-    name: 'Bellsprout',
+    name: '#69 - Bellsprout',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/069.png',
     seleted: false
   },
   {
-    name: 'Weepinbell',
+    name: '#70 - Weepinbell',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/070.png',
     seleted: false
   },
   {
-    name: 'Victreebel',
+    name: '#71 - Victreebel',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/071.png',
     seleted: false
   },
   {
-    name: 'Tentacool',
+    name: '#72 - Tentacool',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/072.png',
     seleted: false
   },
   {
-    name: 'Tentacruel',
+    name: '#73 - Tentacruel',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/073.png',
     seleted: false
   },
   {
-    name: 'Geodude',
+    name: '#74 - Geodude',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/074.png',
     seleted: false
   },
   {
-    name: 'Graveler',
+    name: '#75 - Graveler',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/075.png',
     seleted: false
   },
   {
-    name: 'Golem',
+    name: '#76 - Golem',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/076.png',
     seleted: false
   },
   {
-    name: 'Ponyta',
+    name: '#77 - Ponyta',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/077.png',
     seleted: false
   },
   {
-    name: 'Rapidash',
+    name: '#78 - Rapidash',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/078.png',
     seleted: false
   },
   {
-    name: 'Slowpoke',
+    name: '#79 - Slowpoke',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/079.png',
     seleted: false
   },
   {
-    name: 'Slowbro',
+    name: '#80 - Slowbro',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/080.png',
     seleted: false
   },
   {
-    name: 'Magnemite',
+    name: '#81 - Magnemite',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/081.png',
     seleted: false
   },
   {
-    name: 'Magneton',
+    name: '#82 - Magneton',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/082.png',
     seleted: false
   },
   {
-    name: 'Farfetchd',
+    name: '#83 - Farfetchd',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/083.png',
     seleted: false
   },
   {
-    name: 'Doduo',
+    name: '#84 - Doduo',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/084.png',
     seleted: false
   },
   {
-    name: 'Dodrio',
+    name: '#85 - Dodrio',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/085.png',
     seleted: false
   },
   {
-    name: 'Seel',
+    name: '#86 - Seel',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/086.png',
     seleted: false
   },
   {
-    name: 'Dewgong',
+    name: '#87 - Dewgong',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/087.png',
     seleted: false
   },
   {
-    name: 'Grimer',
+    name: '#88 - Grimer',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/088.png',
     seleted: false
   },
   {
-    name: 'Muk',
+    name: '#89 - Muk',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/089.png',
     seleted: false
   },
   {
-    name: 'Shellder',
+    name: '#90 - Shellder',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/090.png',
     seleted: false
   },
   {
-    name: 'Cloyster',
+    name: '#91 - Cloyster',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/091.png',
     seleted: false
   },
   {
-    name: 'Gastly',
+    name: '#92 - Gastly',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/092.png',
     seleted: false
   },
   {
-    name: 'Haunter',
+    name: '#93 - Haunter',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/093.png',
     seleted: false
   },
   {
-    name: 'Gengar',
+    name: '#94 - Gengar',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png',
     seleted: false
   },
   {
-    name: 'Onix',
+    name: '#95 - Onix',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/095.png',
     seleted: false
   },
   {
-    name: 'Drowzee',
+    name: '#96 - Drowzee',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/096.png',
     seleted: false
   },
   {
-    name: 'Hypno',
+    name: '#97 - Hypno',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/097.png',
     seleted: false
   },
   {
-    name: 'Krabby',
+    name: '#98 - Krabby',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/098.png',
     seleted: false
   },
   {
-    name: 'Kingler',
+    name: '#99 - Kingler',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/099.png',
     seleted: false
   },
   {
-    name: 'Voltorb',
+    name: '#100 - Voltorb',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/100.png',
     seleted: false
   },
   {
-    name: 'Electrode',
+    name: '#101 - Electrode',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/101.png',
     seleted: false
   },
   {
-    name: 'Exeggcute',
+    name: '#102 - Exeggcute',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/102.png',
     seleted: false
   },
   {
-    name: 'Exeggutor',
+    name: '#103 - Exeggutor',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/103.png',
     seleted: false
   },
   {
-    name: 'Cubone',
+    name: '#104 - Cubone',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/104.png',
     seleted: false
   },
   {
-    name: 'Marowak',
+    name: '#105 - Marowak',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/105.png',
     seleted: false
   },
   {
-    name: 'Hitmonlee',
+    name: '#106 - Hitmonlee',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/106.png',
     seleted: false
   },
   {
-    name: 'Hitmonchan',
+    name: '#107 - Hitmonchan',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/107.png',
     seleted: false
   },
   {
-    name: 'Lickitung',
+    name: '#108 - Lickitung',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/108.png',
     seleted: false
   },
   {
-    name: 'Koffing',
+    name: '#109 - Koffing',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/109.png',
     seleted: false
   },
   {
-    name: 'Weezing',
+    name: '#110 - Weezing',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/110.png',
     seleted: false
   },
   {
-    name: 'Rhyhorn',
+    name: '#111 - Rhyhorn',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/111.png',
     seleted: false
   },
   {
-    name: 'Rhydon',
+    name: '#112 - Rhydon',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/112.png',
     seleted: false
   },
   {
-    name: 'Chansey',
+    name: '#113 - Chansey',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/113.png',
     seleted: false
   },
   {
-    name: 'Tangela',
+    name: '#114 - Tangela',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/114.png',
     seleted: false
   },
   {
-    name: 'Kangaskhan',
+    name: '#115 - Kangaskhan',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/115.png',
     seleted: false
   },
   {
-    name: 'Horsea',
+    name: '#116 - Horsea',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/116.png',
     seleted: false
   },
   {
-    name: 'Seadra',
+    name: '#117 - Seadra',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/117.png',
     seleted: false
   },
   {
-    name: 'Goldeen',
+    name: '#118 - Goldeen',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/118.png',
     seleted: false
   },
   {
-    name: 'Seaking',
+    name: '#119 - Seaking',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/119.png',
     seleted: false
   },
   {
-    name: 'Staryu',
+    name: '#120 - Staryu',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/120.png',
     seleted: false
   },
   {
-    name: 'Starmie',
+    name: '#121 - Starmie',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/121.png',
     seleted: false
   },
   {
-    name: 'Mr. Mime',
+    name: '#122 - Mr. Mime',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/122.png',
     seleted: false
   },
   {
-    name: 'Scyther',
+    name: '#123 - Scyther',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/123.png',
     seleted: false
   },
   {
-    name: 'Jynx',
+    name: '#124 - Jynx',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/124.png',
     seleted: false
   },
   {
-    name: 'Electabuzz',
+    name: '#125 - Electabuzz',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/125.png',
     seleted: false
   },
   {
-    name: 'Magmar',
+    name: '#126 - Magmar',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/126.png',
     seleted: false
   },
   {
-    name: 'Pinsir',
+    name: '#127 - Pinsir',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/127.png',
     seleted: false
   },
   {
-    name: 'Tauros',
+    name: '#128 - Tauros',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/128.png',
     seleted: false
   },
   {
-    name: 'Magikarp',
+    name: '#129 - Magikarp',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/129.png',
     seleted: false
   },
   {
-    name: 'Gyarados',
+    name: '#130 - Gyarados',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/130.png',
     seleted: false
   },
   {
-    name: 'Lapras',
+    name: '#131 - Lapras',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/131.png',
     seleted: false
   },
   {
-    name: 'Ditto',
+    name: '#132 - Ditto',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/132.png',
     seleted: false
   },
   {
-    name: 'Eevee',
+    name: '#133 - Eevee',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png',
     seleted: false
   },
   {
-    name: 'Vaporeon',
+    name: '#134 - Vaporeon',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/134.png',
     seleted: false
   },
   {
-    name: 'Jolteon',
+    name: '#135 - Jolteon',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/135.png',
     seleted: false
   },
   {
-    name: 'Flareon',
+    name: '#136 - Flareon',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/136.png',
     seleted: false
   },
   {
-    name: 'Porygon',
+    name: '#137 - Porygon',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/137.png',
     seleted: false
   },
   {
-    name: 'Omanyte',
+    name: '#138 - Omanyte',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/138.png',
     seleted: false
   },
   {
-    name: 'Omastar',
+    name: '#139 - Omastar',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/139.png',
     seleted: false
   },
   {
-    name: 'Kabuto',
+    name: '#140 - Kabuto',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/140.png',
     seleted: false
   },
   {
-    name: 'Kabutops',
+    name: '#141 - Kabutops',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/141.png',
     seleted: false
   },
   {
-    name: 'Aerodactyl',
+    name: '#142 - Aerodactyl',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/142.png',
     seleted: false
   },
   {
-    name: 'Snorlax',
+    name: '#143 - Snorlax',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png',
     seleted: false
   },
   {
-    name: 'Articuno',
+    name: '#144 - Articuno',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/144.png',
     seleted: false
   },
   {
-    name: 'Zapdos',
+    name: '#145 - Zapdos',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/145.png',
     seleted: false
   },
   {
-    name: 'Moltres',
+    name: '#146 - Moltres',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/146.png',
     seleted: false
   },
   {
-    name: 'Dratini',
+    name: '#147 - Dratini',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/147.png',
     seleted: false
   },
   {
-    name: 'Dragonair',
+    name: '#148 - Dragonair',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/148.png',
     seleted: false
   },
   {
-    name: 'Dragonite',
+    name: '#149 - Dragonite',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png',
     seleted: false
   },
   {
-    name: 'Mewtwo',
+    name: '#150 - Mewtwo',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png',
     seleted: false
   },
   {
-    name: 'Mew',
+    name: '#151 - Mew',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png',
     seleted: false
   },
