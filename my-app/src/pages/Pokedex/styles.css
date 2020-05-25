@@ -31,10 +31,19 @@
  #quadrs{
   height: 200px;
   width: 200px;
-  background-color: yellow;
+  background-color: lightgreen;
   border-radius: 30px;
   margin-top: 140px;
   margin-left: 5px;
   margin-right: 5px;
+  position: relative;
  }
-   
+   .pokefotos {
+    position: absolute;
+    left: 13px;
+    bottom: 30px;
+    height: 170px;
+    width: 180px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+   }

@@ -44,7 +44,7 @@ function Pokedex(props) {
 
             <div className = "d-flex flex-wrap justify-content-center">
                 {selecionados.map(obj => {
-                    return <Square value = {obj.name}/>
+                    return <Square value = {obj.name} image = {obj.foto}/>
                 })}
             </div>
         </div>
@@ -56,10 +56,12 @@ function Pokedex(props) {
 
 function Square(props){
     
-    const value = props.value;    
+    const value = props.value;  
+    const image = props.image;  
     return (
         <div id = "quadrs" className = "d-flex flex-wrap justify-content-center">
             {value}
+            <img className="pokefotos" src={image}></img>
         </div>
 
 
