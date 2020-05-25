@@ -792,11 +792,24 @@ function App() {
         
         <h1 id = "titulo" className="d-flex flex-wrap justify-content-center"> Selecione os Pokémons: </h1>
 
-        <form action="/pokedex" class="inline">
-                <button id="voltar" class="btn btn-outline-danger"> Voltar </button>
-          </form>
+        <Link id="voltar" className="btn btn-outline-danger" to={{
 
-        <Link id="selecionar" class="btn btn-danger"  to={{
+          pathname: '/pokedex',
+        }}>
+                 Ir para Pokedex          
+        </Link>
+
+
+        <Link id="principal" className="btn btn-outline-danger" to={{
+
+          pathname: '/',
+        
+        }}>        Ir para Página Principal
+
+        </Link>
+
+
+        <Link id="selecionar" className="btn btn-danger"  to={{
             pathname: '/pokedex',
             state: {
               selecionados: selecionados
