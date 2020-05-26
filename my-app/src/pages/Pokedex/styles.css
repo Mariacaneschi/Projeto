@@ -134,3 +134,12 @@ letter-spacing: 5px;
   border-bottom-right-radius:5px;
   clear: both;
 }
+
+#quantidade{
+  text-align: center;
+  color:black;
+  font-family:"Pokemon";         
+  bottom: 0px; 
+  width: 100%;
+
+}
