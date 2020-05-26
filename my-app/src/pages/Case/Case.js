@@ -789,6 +789,7 @@ function App() {
 
   return (
     <div className="App h-100">
+      <div id="header1"> 
       <div>
 
         
@@ -798,7 +799,7 @@ function App() {
 
           pathname: '/pokedex',
         }}>
-                 Ir para Pokedex          
+                 Pokedex          
         </Link>
 
 
@@ -806,7 +807,7 @@ function App() {
 
           pathname: '/',
         
-        }}>        Ir para Página Principal
+        }}>        Página Principal
 
         </Link>
 
@@ -826,6 +827,7 @@ function App() {
         <ScrollUpButton />
 
 
+      </div>
       </div>
     </div>
   );
