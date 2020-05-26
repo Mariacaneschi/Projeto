@@ -1,23 +1,23 @@
 import React, { useState, useEffect } from 'react';
 import './styles.css';
 import { InputGroup, FormControl, Button } from 'react-bootstrap';
-import {Link} from 'react-router-dom'; 
-import {CircleArrow as ScrollUpButton} from "react-scroll-up-button"; 
+import { Link } from 'react-router-dom';
+import { CircleArrow as ScrollUpButton } from "react-scroll-up-button";
 
 
 
 
 const DATA = [
-  { 
+  {
     name: '#1 - Bulbasaur',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png'
-    
+
   },
 
   {
     name: '#2 - Ivysaur',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png'
-    
+
   },
   {
     name: '#3 - Venusaur',
@@ -27,7 +27,7 @@ const DATA = [
     name: '#4 - Charmander',
     foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png',
     selected: false
-    
+
   },
   {
     name: '#5 - Charmeleon',
@@ -765,15 +765,12 @@ const DATA = [
     selected: false
   },
 ];
+
 function App() {
 
   const [data, setData] = useState(DATA);
 
   const [selecionados, setSelecionados] = useState([])
-
-  function addpokemon (pokemon){
-    setSelecionados(selecionados.push(pokemon))
-  }
 
   function handleClick(index) {
 
@@ -789,46 +786,43 @@ function App() {
 
   return (
     <div className="App h-100">
-      <div id="header1"> 
-      <div>
+      <div id="header1">
 
-        
-        <h1 id = "titulo" className="d-flex flex-wrap justify-content-center"> Selecione os Pokémons: </h1>
+          <h1 id="nome" className="d-flex justify-content-center"> Selecione os Pokémons: </h1>
 
-        <Link id="voltar" className="btn btn-outline-danger" to={{
+          <div className  ="botao">
+            <Link id="voltar" className="btn btn-outline-danger" to={{
 
-          pathname: '/pokedex',
-        }}>
-                 Pokedex          
-        </Link>
-
-
-        <Link id="principal" className="btn btn-outline-danger" to={{
-
-          pathname: '/',
-        
-        }}>        Página Principal
-
-        </Link>
+              pathname: '/pokedex',
+            }}>
+              Pokedex
+          </Link>
 
 
-        <Link id="selecionar" className="btn btn-danger"  to={{
-            pathname: '/pokedex',
-            state: {
-              selecionados: selecionados
-            }}}> Selecionar 
-        </Link>
+            <Link id="principal" className="btn btn-outline-danger" to={{
+              pathname: '/',
+            }}>
+              Página Principal
+            </Link>
 
-        <div id = "quadrados" className="d-flex flex-wrap justify-content-center">
-          {data.map((obj, index) => {
-            return <Square value={obj.name} _selected={obj.selected} image={obj.foto} onClick={() => handleClick(index)} addpokemon = {addpokemon} />
-          })}
+
+            <Link id="selecionar" className="btn btn-danger" to={{
+              pathname: '/pokedex',
+              state: {
+                selecionados: selecionados
+              }
+            }}> Selecionar
+          </Link>
+          </div>
+
+          <div id="quadrados" className="d-flex flex-wrap justify-content-center">
+            {data.map((obj, index) => {
+              return <Square value={obj.name} _selected={obj.selected} image={obj.foto} onClick={() => handleClick(index)} />
+            })}
+          </div>
+          <ScrollUpButton />
         </div>
-        <ScrollUpButton />
 
-
-      </div>
-      </div>
     </div>
   );
 }
