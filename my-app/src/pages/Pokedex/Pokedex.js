@@ -18,11 +18,13 @@ function Pokedex(props) {
     else {
         return (
             <div className="back h-100">
+                <div id="header2">
                 <div className="title">
-                    <h1> Minha Pokedex</h1>
+                    <h1 id="titulo2"> Minha Pokedex</h1>
                     <Link id="adicionar" class="btn btn-danger" to={{
                         pathname: '/case',
                     }}> Adicionar Pokémons </Link>
+                </div>
                 </div>
             </div>
         )
@@ -30,11 +32,13 @@ function Pokedex(props) {
 
     return (
         <div className="back">
+            <div id="header3">
             <div className="title">
-                <h1> Minha Pokedex</h1>
+                <h1 id="titulo3"> Minha Pokedex</h1>
                 <Link id="adicionar" class="btn btn-danger" to={{
                     pathname: '/case',
                 }}> Adicionar Pokémons </Link>
+            </div>
             </div>
 
             <div className="container_quadrados">

@@ -20,6 +20,9 @@ h1#titulo {
   font-size: 50px;
   position: unset;
   margin-top:20px;
+  margin-left: 90px;
+  text-shadow: 2px 2px 2px cyan;
+  letter-spacing: 5px;
   
 
 }

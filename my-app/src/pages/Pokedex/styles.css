@@ -12,28 +12,46 @@
   align-self: center;
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  width: 80%;
+  padding: 30px;
+  width: 90%;
 }
 
-h1 {
+#titulo2 {
   text-align: center;
   color:black;
   font-family:"Pokemon";
-  font-size: 200px;
+  font-size: 70px;
+  margin-top: -20px;
+margin-left: 150px;
+text-shadow: 2px 2px 2px cyan;
+letter-spacing: 5px;
+}
+#titulo3 {
+  text-align: center;
+  color:black;
+  font-family:"Pokemon";
+  font-size: 70px;
+  margin-top: -20px;
+margin-left: 150px;
+text-shadow: 2px 2px 2px cyan;
+letter-spacing: 5px;
 }
 
 #adicionar{
   align-self: flex-end;
   font-family: "Comic Sans MS";
-  width: 120px;
+  width: 200px;
+  margin-top: 40px;
   background-color:#ff0d0d;
-  border-color:#ff0d0d;
-  border-radius: 60px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 30px;
+  color: white;
+  border-width: 5px;
 }
 
 .container_quadrados{
-  margin-top: 20px;
+  margin-top: 250px;
   display: flex;
   flex-wrap: wrap; 
   justify-content: center;
@@ -80,4 +98,39 @@ h1 {
     align-self: flex-end;
     margin-top: 15px;
   }
+}
+#header2 {
+  background-image: url('./header.jpg');
+  position: absolute;
+  top: 0;
+  bottom: 90%;
+  height: 100px;
+  width: 100%;
+  border-bottom-style: solid;
+
+  border-bottom-color: red;
+  border-bottom-width: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius:5px;
+  clear: both;
+}
+
+#header3 {
+  background-image: url('./header.jpg');
+  position: absolute;
+  top: 0;
+  bottom: 90%;
+  height: 100px;
+  width: 100%;
+  border-bottom-style: solid;
+
+  border-bottom-color: red;
+  border-bottom-width: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius:5px;
+  clear: both;
 }
