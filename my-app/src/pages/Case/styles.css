@@ -1,60 +1,54 @@
 @font-face {font-family: "Pokemon"; src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot"); src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff") format("woff"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.svg#Pokemon") format("svg"); }
-
-.square {
-  height: 200px;
-  width: 200px;
-  background-color: blue;
-  position: relative;
-  
-}
      
 .App {
     background-image: url('../../fundo1.jpg');
-    background-size: 100%;
-    display: flex;    
+    background-size: 100%;  
+}
+
+#header1 {
+  background-image: url('./header.jpg');
+  height: 100px;
+  width: 100%;
+  border-bottom-style: solid;
+
+  border-bottom-color: red;
+  border-bottom-width: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  clear: both;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
     
-h1#titulo {
+#nome {
   color:black;
   font-family:"Pokemon";
   font-size: 50px;
-  position: unset;
   margin-top:20px;
-  margin-left: 90px;
   text-shadow: 2px 2px 2px cyan;
   letter-spacing: 5px;
-  
 
 }
 
-button#botoes {
-position: relative;
-bottom: -80px;
-color: black;
-font-family:"Comic Sans MS";
-background-color: white;
-border-color: black;
-border-radius: 60px;
-
+.botao{
+  width: 95%;
+  margin-top: 30px;
 }
 
 #selecionar{
   float: right;
   font-family: "Comic Sans MS";
   color: white;
-  margin-right: 100px;
-  width: 120px;
+  width: 150px;
   font-weight: bold;
+
   background-color: red;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  position: unset;
   border-style: solid;
   border-color: black;
   border-width: 5px;
   border-radius: 20px;
-
- 
 }
 
 #voltar{
@@ -62,46 +56,56 @@ border-radius: 60px;
   font-family: 'Comic Sans MS';
   color: white;
   font-weight: bold;
-  margin-left: 100px;
-  margin-right: 50px;
-  width: 160px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  position: unset;
+
+  margin-right: 30px;
+
+  width: 120px;  
   background-color: red;
+
   border-style: solid;
   border-color: black;
   border-width: 5px;
   border-radius: 20px;
-
 }
-
 
 #principal{
-background-color: red;
-margin-top: 30px;
-margin-bottom: 20px;
-margin-left: 120px;
-font-family: 'Comic Sans MS';
-font-weight: bold;
-color: white;
-border-style: solid;
-border-color: black;
-border-width: 5px;
-border-radius: 20px;
-
+  background-color: red;
+  width: 200px;
+  font-family: 'Comic Sans MS';
+  font-weight: bold;
+  color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  border-radius: 20px;
 }
 
+#quadrados{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
 
-div#quadrados{
+.square {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  position: relative;
+}
 
-  margin-top: 80px;
+button#botoes {
+  position: relative;
+  bottom: -80px;
+  color: black;
+  font-family:"Comic Sans MS";
+  background-color: white;
+  border-color: black;
+  border-radius: 60px;
 }
 
 #imgpoke {
   height: 100px;
   width: 100px;
-
 }
 
 .pokefotos {
@@ -113,18 +117,66 @@ div#quadrados{
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
 }
-#header1 {
-  background-image: url('./header.jpg');
-  position: absolute;
-  top: 0;
-  bottom: 90%;
-  height: 100px;
-  width: 100%;
-  border-bottom-style: solid;
 
-  border-bottom-color: red;
-  border-bottom-width: 5px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  clear: both;
+@media screen and (min-width: 670px) and (max-width: 785px){
+  #nome{
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 525px) and (max-width: 669px){
+  #nome{
+    font-size: 35px;
+    text-align: center;
+  }
+  .botao{
+    margin-top: 40px;
+  }
+  #voltar{
+    margin-right: 5px;
+  }
+}
+
+@media screen and (min-width: 421px) and (max-width: 524px){
+  #nome{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .botao{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #selecionar{
+    float: inline-start;
+  }
+  #voltar{
+    margin-right: 0px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 420px){
+  #nome{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .botao{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #selecionar{
+    float: inline-start;
+    margin-top: 10px;
+  }
+  #voltar{
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
 }

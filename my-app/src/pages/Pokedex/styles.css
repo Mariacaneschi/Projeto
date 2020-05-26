@@ -8,12 +8,28 @@
   flex-direction: column;
 }
 
+#header2 {
+  background-image: url('./header.jpg');
+  height: 120px;
+  width: 100%;
+
+  border-bottom-style: solid;
+  border-bottom-color: red;
+  border-bottom-width: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius:5px;
+  clear: both;
+  display: flex;
+  justify-content: center;
+}
+
 .title{
-  align-self: center;
   display: flex;
   flex-direction: column;
-  padding: 30px;
   width: 90%;
+  height: 100%;
 }
 
 #titulo2 {
@@ -21,27 +37,15 @@
   color:black;
   font-family:"Pokemon";
   font-size: 70px;
-  margin-top: -20px;
-margin-left: 150px;
-text-shadow: 2px 2px 2px cyan;
-letter-spacing: 5px;
-}
-#titulo3 {
-  text-align: center;
-  color:black;
-  font-family:"Pokemon";
-  font-size: 70px;
-  margin-top: -20px;
-margin-left: 150px;
-text-shadow: 2px 2px 2px cyan;
-letter-spacing: 5px;
+  padding: 20px;
+  text-shadow: 2px 2px 2px cyan;
+  letter-spacing: 5px;
 }
 
 #adicionar{
   align-self: flex-end;
   font-family: "Comic Sans MS";
   width: 200px;
-  margin-top: 40px;
   background-color:#ff0d0d;
   border-style: solid;
   border-color: black;
@@ -51,7 +55,7 @@ letter-spacing: 5px;
 }
 
 .container_quadrados{
-  margin-top: 250px;
+  margin-top: 100px;
   display: flex;
   flex-wrap: wrap; 
   justify-content: center;
@@ -85,61 +89,91 @@ letter-spacing: 5px;
   font-family: "Comic Sans MS";
 }
 
-@media screen and (min-width: 300px) and (max-width: 645px){
-  .title{
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-    width: 90%;
-  }
-  #adicionar{
-    align-self: flex-end;
-    margin-top: 15px;
-  }
-}
-#header2 {
-  background-image: url('./header.jpg');
-  position: absolute;
-  top: 0;
-  bottom: 90%;
-  height: 100px;
-  width: 100%;
-  border-bottom-style: solid;
-
-  border-bottom-color: red;
-  border-bottom-width: 5px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius:5px;
-  clear: both;
-}
-
-#header3 {
-  background-image: url('./header.jpg');
-  position: absolute;
-  top: 0;
-  bottom: 90%;
-  height: 100px;
-  width: 100%;
-  border-bottom-style: solid;
-
-  border-bottom-color: red;
-  border-bottom-width: 5px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius:5px;
-  clear: both;
-}
-
 #quantidade{
   text-align: center;
   color:black;
   font-family:"Pokemon";         
   bottom: 0px; 
   width: 100%;
+}
 
+@media screen and (min-width: 300px) and (max-width: 420px){
+  #header2{
+    width: 100%;
+    background-size: 100%;
+  }
+  .title{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+  }
+  #titulo2{
+    padding: 7px;
+    font-size: 45px;
+  }
+  #adicionar{
+    align-self: flex-end;
+    margin-top: 15px;
+    width: 150px;
+  }
+  .container_quadrados{
+    margin-top: 150px;
+  }
+}
+
+@media screen and (min-width: 421px) and (max-width: 490px){
+  #header2{
+    width: 100%;
+    background-size: 100%;
+    height: 130px;
+  }
+  .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+  }
+  #titulo2{
+    text-align: center;
+    padding: 7px;
+    font-size: 50px;
+  }
+  #adicionar{
+    align-self: flex-end;
+    margin-top: 20px;
+    width: 170px;
+  }
+  .container_quadrados{
+    margin-top: 130px;
+  }
+}
+
+@media screen and (min-width: 491px) and (max-width: 658px){
+  #header2{
+    width: 100%;
+    background-size: 100%;
+    height: 100px;
+  }
+  .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+  }
+  #titulo2{
+    text-align: center;
+    padding: 7px;
+    font-size: 50px;
+  }
+  #adicionar{
+    align-self: flex-end;
+    margin-top: 10%;
+    width: 170px;
+  }
+  .container_quadrados{
+    margin-top: 130px;
+  }
 }

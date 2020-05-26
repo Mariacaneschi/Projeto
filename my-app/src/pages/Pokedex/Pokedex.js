@@ -10,35 +10,37 @@ function Pokedex(props) {
     let selecionados;
     if (props.location.state) {
         selecionados = props.location.state.selecionados;
-        selecionados.sort(function (a, b) {
-            return (a.name > b.name) ? 1 : ((b.name > a.nome) ? -1 : 0);
-        });
     }
 
     else {
         return (
             <div className="back h-100">
                 <div id="header2">
-                <div className="title">
-                    <h1 id="titulo2"> Minha Pokedex</h1>
-                    <Link id="adicionar" class="btn btn-danger" to={{
-                        pathname: '/case',
-                    }}> Adicionar Pokémons </Link>
+                    <div className="title">
+                        <h1 id="titulo2"> Minha Pokedex</h1>
+                        <Link id="adicionar" class="btn btn-danger" to={{
+                            pathname: '/case',
+                        }}> Adicionar Pokémons </Link>
+                    </div>
                 </div>
-                </div>
+
+                <footer id="quantidade">
+                    <br></br>
+                    <h5> Você tem 0 Pokémon(s) em sua Pokédex! </h5>
+                </footer>
             </div>
         )
     }
 
     return (
         <div className="back">
-            <div id="header3">
-            <div className="title">
-                <h1 id="titulo3"> Minha Pokedex</h1>
-                <Link id="adicionar" class="btn btn-danger" to={{
-                    pathname: '/case',
-                }}> Adicionar Pokémons </Link>
-            </div>
+            <div id="header2">
+                <div className="title">
+                    <h1 id="titulo2"> Minha Pokedex</h1>
+                    <Link id="adicionar" class="btn btn-danger" to={{
+                        pathname: '/case',
+                    }}> Adicionar Pokémons </Link>
+                </div>
             </div>
 
             <div className="container_quadrados">
@@ -48,9 +50,9 @@ function Pokedex(props) {
                 })}
             </div>
 
-            <footer id = "quantidade">  
-            <br></br>            
-            <h5> Você tem { selecionados.length } Pokémon(s) em sua Pokédex! </h5>
+            <footer id="quantidade">
+                <br></br>
+                <h5> Você tem {selecionados.length} Pokémon(s) em sua Pokédex! </h5>
             </footer>
 
         </div>
