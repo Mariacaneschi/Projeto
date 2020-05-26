@@ -48,6 +48,11 @@ function Pokedex(props) {
                 })}
             </div>
 
+            <footer id = "quantidade">  
+            <br></br>            
+            <h5> Você tem { selecionados.length } Pokémon(s) em sua Pokédex! </h5>
+            </footer>
+
         </div>
     )
 
