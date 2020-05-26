@@ -1,58 +1,83 @@
 @font-face {font-family: "Pokemon"; src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot"); src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff") format("woff"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.svg#Pokemon") format("svg"); }
 
 .back{
+  height: 100%;
   background-image: url('../../fundo1.jpg');
   background-size: 100%;
   display: flex;
   flex-direction: column;
 }
 
-#adicionar{
-    float: right;
-    font-family: "Comic Sans MS";
-    position: absolute;
-    width: 120px;
-    top: 50px;
-    background-color:#ff0d0d;
-    border-color:#ff0d0d;
-    border-radius: 60px;
-    right: 500px;
-  }
-    
-  h1 {
-    color:black;
-    font-family:"Pokemon";
-    font-size: 150px;
-    position: absolute;
-    top: 50px;
-    left: 600px;
-  }
+.title{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 80%;
+}
 
- #quadrs{
+h1 {
+  text-align: center;
+  color:black;
+  font-family:"Pokemon";
+  font-size: 200px;
+}
+
+#adicionar{
+  align-self: flex-end;
+  font-family: "Comic Sans MS";
+  width: 120px;
+  background-color:#ff0d0d;
+  border-color:#ff0d0d;
+  border-radius: 60px;
+}
+
+.container_quadrados{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  background: none;
+}
+
+#quadrs{
   height: 200px;
   width: 200px;
   background-color: lightgreen;
   border-radius: 30px;
-  margin-top: 140px;
+  margin-top: 15px;
   margin-left: 5px;
   margin-right: 5px;
   position: relative;
-  
  }
-   .pokefotos {
-    position: absolute;
-    left: 13px;
-    bottom: 30px;
-    height: 170px;
-    width: 180px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-   }
+   
+.pokefotos {
+  position: absolute;
+  left: 13px;
+  bottom: 30px;
+  height: 170px;
+  width: 180px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
 
+#np{
+  position: absolute;
+  bottom: 0px;
+  font-family: "Comic Sans MS";
+}
 
-   #np{
-     
-      position: absolute;
-      bottom: 0px;
-      font-family: "Comic Sans MS";
-   }
+@media screen and (min-width: 300px) and (max-width: 645px){
+  .title{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 90%;
+  }
+  #adicionar{
+    align-self: flex-end;
+    margin-top: 15px;
+  }
+}
