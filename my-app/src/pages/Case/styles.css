@@ -19,7 +19,7 @@ h1#titulo {
   font-family:"Pokemon";
   font-size: 50px;
   position: unset;
-  margin-top:50px;
+  margin-top:20px;
   
 
 }
@@ -38,30 +38,54 @@ border-radius: 60px;
 #selecionar{
   float: right;
   font-family: "Comic Sans MS";
-  color: black;
-  margin-right: 250px;
+  color: white;
+  margin-right: 100px;
   width: 120px;
-  background-color:#ff0d0d;
-  border-color:#ff0d0d;
-  margin-top: 25px;
+  font-weight: bold;
+  background-color: red;
+  margin-top: 30px;
+  margin-bottom: 20px;
   position: unset;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  border-radius: 20px;
+
  
 }
 
 #voltar{
   float: left;
-  font-family: "Comic Sans MS";
-  margin-left: 250px;
-  width: 200px;
-  margin-top: 25px;
+  font-family: 'Comic Sans MS';
+  color: white;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-right: 50px;
+  width: 160px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   position: unset;
+  background-color: red;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  border-radius: 20px;
 
 }
 
+
 #principal{
-
-
-margin-top: 25px;
+background-color: red;
+margin-top: 30px;
+margin-bottom: 20px;
+margin-left: 120px;
+font-family: 'Comic Sans MS';
+font-weight: bold;
+color: white;
+border-style: solid;
+border-color: black;
+border-width: 5px;
+border-radius: 20px;
 
 }
 
@@ -85,4 +109,19 @@ div#quadrados{
   width: 180px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
+}
+#header1 {
+  background-image: url('./header.jpg');
+  position: absolute;
+  top: 0;
+  bottom: 90%;
+  height: 100px;
+  width: 100%;
+  border-bottom-style: solid;
+
+  border-bottom-color: red;
+  border-bottom-width: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  clear: both;
 }
