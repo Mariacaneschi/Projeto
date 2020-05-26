@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './styles.css';
 import { InputGroup, FormControl, Button } from 'react-bootstrap';
 import {Link} from 'react-router-dom'; 
+import {CircleArrow as ScrollUpButton} from "react-scroll-up-button"; 
+
 
 
 
@@ -821,6 +823,9 @@ function App() {
             return <Square value={obj.name} _selected={obj.selected} image={obj.foto} onClick={() => handleClick(index)} addpokemon = {addpokemon} />
           })}
         </div>
+        <ScrollUpButton />
+
+
       </div>
     </div>
   );
