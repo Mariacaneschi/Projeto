@@ -8,10 +8,15 @@ import { Link } from 'react-router-dom';
 function Pokedex(props) {
 
     let selecionados;
+    let antigos;
+    let i = 0;
     if (props.location.state) {
         selecionados = props.location.state.selecionados;
+        selecionados.map(obj => {
+            if(obj.selected)
+                i++;
+        })
     }
-
     else {
         return (
             <div className="back h-100">
@@ -24,7 +29,7 @@ function Pokedex(props) {
                     </div>
                 </div>
 
-                <footer id="quantidade">
+                <footer id="quantidade" className="sem_pokemons">
                     <br></br>
                     <h5> Você tem 0 Pokémon(s) em sua Pokédex! </h5>
                 </footer>
@@ -37,9 +42,10 @@ function Pokedex(props) {
             <div id="header2">
                 <div className="title">
                     <h1 id="titulo2"> Minha Pokedex</h1>
-                    <Link id="adicionar" class="btn btn-danger" to={{
-                        pathname: '/case',
-                    }}> Adicionar Pokémons </Link>
+                    <a id="adicionar" class="btn btn-danger" 
+                        role='button' aria-pressed="true"
+                        href='/case'
+                    > Adicionar Pokémons </a>
                 </div>
             </div>
 
@@ -52,7 +58,7 @@ function Pokedex(props) {
 
             <footer id="quantidade">
                 <br></br>
-                <h5> Você tem {selecionados.length} Pokémon(s) em sua Pokédex! </h5>
+                <h5> Você tem {i} Pokémon(s) em sua Pokédex! </h5>
             </footer>
 
         </div>

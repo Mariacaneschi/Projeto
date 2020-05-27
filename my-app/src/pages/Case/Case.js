@@ -6,7 +6,6 @@ import { CircleArrow as ScrollUpButton } from "react-scroll-up-button";
 
 
 
-
 const DATA = [
   {
     name: '#1 - Bulbasaur',

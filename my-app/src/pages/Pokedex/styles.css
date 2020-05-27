@@ -97,6 +97,10 @@
   width: 100%;
 }
 
+.sem_pokemons{
+    margin-top: 200px;
+}
+
 @media screen and (min-width: 300px) and (max-width: 420px){
   #header2{
     width: 100%;
