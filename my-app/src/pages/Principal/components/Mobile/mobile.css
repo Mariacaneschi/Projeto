@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Pokemon Solid';
+    src: url('Pokemon\ Solid.ttf');
+ }
+#img4 {
+    background-image: url('./header.jpg');
+    width: 100%;
+    height: 80px;
+    align-items: center;
+}
+#titulo5 {
+    font-family: 'Pokemon Solid';
+    color: rgb(226, 226, 47);
+    text-shadow: 4px 7px 4px midnightblue;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 33px;
+    
+   
+}
+#menuzera {
+    width: 20px;
+    height: 20px;
+    color:white;
+    margin-left: 2px;
+    margin-top: 10px;
+}
