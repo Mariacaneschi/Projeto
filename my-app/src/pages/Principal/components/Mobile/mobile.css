@@ -7,6 +7,9 @@
     width: 100%;
     height: 80px;
     align-items: center;
+    border-bottom-style: solid;
+    border-bottom-color: yellow;
+    border-width: 5px;
 }
 #titulo5 {
     font-family: 'Pokemon Solid';
@@ -25,3 +28,64 @@
     margin-left: 2px;
     margin-top: 10px;
 }
+
+
+  #divrupmobile {
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 45%;
+   margin-top: 5%;
+   margin-bottom: 20px;
+   position: absolute;
+   display: block;
+   
+   
+  }
+  .login {
+      width: 90%;
+      height: 35%;
+      
+     
+     margin-top: 10%;
+  }
+  #bodyzera {
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+  }
+  #divrdownmobile {
+    
+    margin-top: 70%;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 3%;
+  }
+ 
+#bemvindo {
+    font-family: "Comic Sans MS";
+    font-size: 150%;
+    color: yellow;
+    font-weight: bolder;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 90%;
+    text-shadow: 1px 1px 1px midnightblue;
+    text-align: center;
+  }
+
+
+  .tudo {
+    background-image: url("./fundo1.jpg");
+    background-position-y: 120px;
+    background-size: 100%;
+  }
+  #bulbas {
+      height: 50%;
+      width: 50%;
+      margin-top: 3%;
+      margin-left: 20%;
+  }
+ 
+      

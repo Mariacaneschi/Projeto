@@ -4,38 +4,22 @@ import { carousel } from "bootstrap";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./mobile.css";
-import ResponsiveMenu from 'react-responsive-navbar';
-import React, { Component } from 'react';
- 
-
-class Example extends Component {
-    render() {
-      return (
-        <ResponsiveMenu
-          menuOpenButton={<div />}
-          menuCloseButton={<div />}
-          changeMenuOn="500px"
-          largeMenuClassName="large-menu-classname"
-          smallMenuClassName="small-menu-classname"
-          menu={
-            <ul> LOL
-              <li>Item 1</li>
-              <li>Item 2</li>
-              <li>Item 3</li>
-              <li>Item 4</li>
-            </ul>
-          }
-        />
-      );
-    }
-  }
+import Login from "../Login/Login";
 
 const Mobile = () => (
+  <div className="tudo">
     <header id="headermobile">
         <div id="img4">
-      <div id="titulo5">Pokedex online</div></div>
-        
-    </header>
-
+      <div id="titulo5">Pokedex online</div>
+      </div>
+        </header>
+        <body id="boydzera">
+       <div id="divrupmobile">
+         <Login className="login"></Login>
+         <div id="bemvindo"> SEJA BEM VINDO À MAIS NOVA POKEDEX</div>
+         <img id="bulbas" src="https://i.imgur.com/A5TVcKm.png"></img>
+       </div>
+     </body>
+        </div>
 );
 export default Mobile;
