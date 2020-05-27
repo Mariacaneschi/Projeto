@@ -28,8 +28,8 @@ return (
 <div className="App">
       {Windowdimension.width > 1100 && <Header />}
       {Windowdimension.width < 1050 && <Mobile />}
-      {Windowdimension.width > 850 &&  <Body />}
-      {Windowdimension.width > 850 &&  <Footer />}
+      {Windowdimension.width > 1100 &&  <Body />}
+      {Windowdimension.width > 1100 &&  <Footer />}
     </div> 
     )
 };
