@@ -798,11 +798,12 @@ function App() {
           </Link>
 
 
-            <Link id="principal" className="btn btn-outline-danger" to={{
-              pathname: '/',
-            }}>
+            <a id="principal" className="btn btn-outline-danger"
+              role ='button' aria-pressed ="true"
+              href ='/case'
+            >
               Página Principal
-            </Link>
+            </a>
 
 
             <Link id="selecionar" className="btn btn-danger" to={{
