@@ -800,7 +800,7 @@ function App() {
 
             <a id="principal" className="btn btn-outline-danger"
               role ='button' aria-pressed ="true"
-              href ='/case'
+              href ='/'
             >
               Página Principal
             </a>
