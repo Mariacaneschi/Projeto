@@ -5,9 +5,6 @@ import './style.css';
 const Header = () => ( 
 <header id="main-header"> 
 <div id="img"> </div>
-<Button variant="contained" id="suporte">
-    <div id="suportetexto">Suporte</div>
-    </Button>
     <Link to="/case">
 <Button variant="contained" id="case">
     <div id="pokemonstexto">Pokemons</div>
