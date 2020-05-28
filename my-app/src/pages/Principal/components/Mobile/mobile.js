@@ -24,6 +24,7 @@ const MenuPopupState = () => {
         <a href="https://www.pokemon.com/br/"> <MenuItem onClick={popupState.close}>Página Oficial</MenuItem> </a>
         <Link to="/pokedex"> <MenuItem onClick={popupState.close}>Pokedex</MenuItem></Link>
         <Link to="/case"><MenuItem onClick={popupState.close}>Case</MenuItem></Link>
+        <Link to="/cadastro"><MenuItem onClick={popupState.close}>Cadastre-se!</MenuItem></Link>
       </Menu>
     </div>
   )
