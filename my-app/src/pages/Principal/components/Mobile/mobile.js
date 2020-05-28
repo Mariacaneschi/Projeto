@@ -21,7 +21,6 @@ const MenuPopupState = () => {
         Menu Inicial
       </Button>
       <Menu {...bindMenu(popupState)}>
-        <Link><MenuItem onClick={popupState.close}>Suporte</MenuItem></Link>
         <a href="https://www.pokemon.com/br/"> <MenuItem onClick={popupState.close}>Página Oficial</MenuItem> </a>
         <Link to="/pokedex"> <MenuItem onClick={popupState.close}>Pokedex</MenuItem></Link>
         <Link to="/case"><MenuItem onClick={popupState.close}>Case</MenuItem></Link>
